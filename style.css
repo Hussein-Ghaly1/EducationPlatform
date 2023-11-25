@@ -2,6 +2,7 @@ html {
     scroll-behavior: smooth;
   }
 body {
+    scroll-behavior: smooth;
     margin: 0;
     overflow-x: hidden; 
 }
@@ -200,6 +201,17 @@ a {
     transition: 0.3s;
 }
 
+.signup {
+    background-color: #3147F3;
+    border-radius: 15px;
+    width: 142px;
+    height: 56px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 li:hover .blue {
     color: #3147F3;
 }
@@ -252,7 +264,41 @@ li:hover .blue {
  .start:hover {
     box-shadow: 0 2px 7px 0 #3b3a3a;
  }
-  
+   
+.one {
+    position: relative;
+    left: 1052px;
+    top: -219px;
+    height: 21px;
+    width: 120px;
+    background-color: #3147F3;
+}
+
+.two {
+    position: relative;
+    left: 823px;
+    top: -171px;
+    height: 20px;
+    width: 120px;
+    background-color: #3147F3;
+}
+.three {
+    position: relative;
+    left: 1159px;
+    top: -20px; 
+    height: 18px;
+    width: 120px;
+    background-color: #3147F3;
+}
+.four {
+    position: relative;
+    left: 785px;
+    top: -73px;
+    height: 19px;
+    width: 120px;
+    background-color: #3147F3;
+}
+
 path {
     position: relative;
     top: -13px;
@@ -342,3 +388,53 @@ svg {
     box-shadow: 0px 1px 22px 0 black;
 
 }
+
+.footer {
+        background-Color:blue   
+    }
+
+        .Social
+        {
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .Social a
+        {
+            font-size: 20px;
+            display:inline-block;
+            border:1px solid beige;
+            Color:whitesmoke;
+            width: 25px;
+            padding: 10px 25px;
+             border-radius: 8px;
+        }
+        .footer ul
+        {
+         list-style: none;
+         text-align: center;
+         padding-bottom: 30px;
+        }
+        .footer ul li
+        {
+            display: inline-block;
+            padding:0px 15px;
+        }
+        .footer ul li a
+        {
+            text-decoration: none;
+            Color:whitesmoke;
+
+        }
+        
+        .footer ul li a :hover
+        {
+            Color:Skyblue;
+        }
+        .Copy-right
+        {
+            text-align: center;
+            padding-bottom: 30px;
+            margin: 0;
+            Color:whitesmoke;
+        }
